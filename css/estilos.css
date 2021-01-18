@@ -1,0 +1,253 @@
+.fundo {
+    background: rgb(182,56,10);
+    background: radial-gradient(circle, rgba(182,56,10,1) 1%, rgba(200,10,10,0.9612044646960347) 2%, rgba(20,25,38,1) 50%); 
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+*{margin: 0;padding: 0;box-sizing: border-box;}
+
+.img{   right: 450px; 
+        position:absolute;
+        top: 100px} 
+
+.menudireito {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+    margin-top: -2%;
+}
+
+header{
+    padding: 9px 0;
+    text-align: right;;
+}
+
+header li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    margin-left: 5%;
+}
+
+.textosuperior {
+    margin-top: 5%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+p {
+    color: white;
+}
+
+h2 {
+    color: white;
+    margin-left: 50%;
+    margin-right: 3%;
+}
+
+
+.baixodireito {
+    font-size: 20px;
+    margin-right: 50px;
+    background-color: #212531;   
+    margin-left: 55%;
+    margin-right: 3%;
+    height: 250px;
+    
+}
+
+.baixoesquerdo {
+    color: white;
+    margin-left: 10%;
+    margin-right: 70%;
+    margin-top: 3%;
+}
+
+.menuesquerda {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+    margin-left: 2%;
+    margin-top: -2%;
+}
+
+.menubaixo {
+    padding: 9px 0;
+    text-align: left;
+}
+.botoes {
+   margin-left: 70%;
+   
+}
+.botao1 {
+   background-color: green;
+}
+.botao2 {
+   background-color: red;
+}
+.botao3 {
+   background-color: yellow;
+}
+
+.msg{
+    margin-left: -1%;
+}
+form{
+    background-color: #141914;
+    width:100%;
+    max-width: 500px;
+    margin: 32px auto;
+    padding:32px 64px;
+    display: flex;
+    flex-direction: column;
+}
+form h2{
+    margin-bottom: 32px;
+    color:white;
+    text-align: center;
+}
+input{
+    width: 100%;
+    padding: 16px 0;
+    border: none;
+    border-bottom: 1px solid orange;
+    background-color:transparent;
+    outline:none;
+    color:white;
+}
+div.input{
+    margin-bottom: 24px;
+    position: relative;
+}
+
+input ~ label{
+    position: absolute;
+    top:6px;
+    left:0;
+    color:white;
+    transition: .4s;
+}
+input:focus ~ label{
+    transform: translateY(-24px);
+    font-size:0.9em;
+    letter-spacing: 0.1em;
+}
+
+.enviar{
+   
+    width: 100%;
+    padding: 16px 0;
+    border: none;
+    border-bottom: 1px solid orange;
+    background-color:transparent;
+    outline:none;
+
+}
+.enviar{
+    margin-top:16px;
+    background-color: orange;
+    color: white;
+}
+
+a{
+    
+    max-width: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-left: 80%;
+    margin-top: 0;
+    align-items: center;
+    background-color: orange;
+    text-decoration: none;
+    color:white;
+    padding:6px;
+    font-size: 0.9em;
+}
+
+li{
+    list-style: none;
+    color:white;
+    margin-top: 24px;
+}
+
+
+#btnCreditos {
+    width:100%;
+    max-width: 500px;
+    margin: 32px auto;
+    padding:22px 64px;
+    display: flex;
+    justify-content: center;
+    background-color:orange;
+    font-size: 14px;
+    
+}
+
+#btnCreditos:hover {
+    background-color:rgb(226, 186, 25,0.9);
+    font-family: 'Roboto', sans-serif;
+    transition: .4s;
+}
+#btnCreditos:active {
+     transform: translateY(-20px);
+}
+.pop-css {
+    width: 100vw;
+    display: none;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+
+.pop-css.mostrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.pop-up{
+    background: cornsilk;
+    width: 50%;
+    max-width: 500px;
+    padding: 20px ;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+
+#btnFechar{
+    position: absolute;
+    width: 10px;
+    padding: 8px;
+    right: 6px;
+    top:-13px;
+    max-width: 500px;
+    border-radius:100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: red;
+    cursor: pointer;
+    
+}
+
+#sla {
+    color: black;
+    margin-left: -1%;
+ }
+ #sla1 {
+    color: black;
+    margin-left: -1%;
+ }

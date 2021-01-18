@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Omega</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head> 
+
+<body>
+    <div class="fundo">
+
+        <h1><p>-Omega</p></h1>
+        <header>
+            <div class="menudireito">
+                <nav>
+                    <ul>
+                        <li><a href="#"><del>Home</del></a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Service</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+            <div class="botoes">
+                <button class="botao1" onclick= "MudaCor('Verde');">VERDE</button>
+                <button class="botao2" onclick= "MudaCor('Vermelho');">VERMELHO</button>
+                <button class="botao3" onclick= "MudaCor('Amarelo');">AMARELO</button>
+            </div>
+
+            <script>
+                function MudaCor(COR){
+                    switch (COR){
+                        case 'Verde': document.bgColor = 'green'; break;
+                        case 'Vermelho': document.bgColor = 'red'; break;
+                        case 'Amarelo': document.bgColor = 'yellow'; break;
+                }
+            }
+            </script>
+
+
+        <div class="textosuperior"> 
+            <h1>
+                <p>NOTEBOOKS</p>
+                <p>DESKTOPS</p>
+                <p>ACESSORIOS</p>
+            </h1>
+        </div>
+
+        <div class="baixoesquerdo">
+            <h4>Aqui você encontrará tudo em acessorios e perifericos para desktop e notebooks, tudo em uma só lugar, vem com a gente.</h4>
+        </div>
+        
+        <div class="baixodireito">
+            <h2>Tudo o que você precisar de tecnologia.</h2>
+            <br><br>
+            <br><br>
+            <h2>Clique aqui</h2>
+        </div>
+
+        <div>
+            <z><img class="img" src="https://cdn.pichau.com.br/wysiwyg/Descricao/Pichau/PGH-P451/PGH-P4511.png" alt="some text" width=500 height=500></z>
+        </div>
+
+        <header class="menubaixo">
+            <div class="menuesquerda">
+                <nav>
+                    <ul>
+                        <li><a href="#">FACEBOOK</a></li>
+                        <li><a href="#">INSTAGRAM</a></li>
+                        <li><a href="#">TWITTER</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+    </div>
+
+    <div class="conteiner">
+
+        <div id="app">
+            <form>
+               <h2 class="msg">Deixe seu recado!</h2>
+               <div class="input">
+                   <input type="text" id="inpt">
+                   <label>Nome</label>
+               </div>
+               <div class="input">
+                   <input type="text" id="inpt1">
+                   <label>Mensagem</label>
+               </div>
+               <button class="enviar">Enviar</button>
+                <ul>
+                </ul>
+            </form>
+        </div>
+
+        <button id="btnCreditos">Creditos</button>
+        <div id="pop-js" class="pop-css">
+            <div class="pop-up">
+                <button id="btnFechar"></button>
+                <h2 id="sla">Disciplina: Desenvolvimento web</h2>
+                <h2 id="sla1">Equipe:</h2>
+                <h3>João</h3>
+                <h3>Malleck</h3>
+            
+            </div>
+        </div>
+    </div>
+        
+    
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
