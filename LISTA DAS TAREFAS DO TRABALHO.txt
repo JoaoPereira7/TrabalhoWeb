@@ -1,0 +1,33 @@
+Equipe: Malleck Ravyn Leite dos Santos - 389954
+		João Pereira de Sousa Neto - 403810
+
+Layout: https://dribbble.com/shots/14935006-Creative-Agency-Website
+
+LISTA DAS TAREFAS DO TRABALHO
+
+Cor de fundo: Malleck
+
+Cabeçalho de superior: João e Malleck
+
+Cabeçalho inferior: João e Malleck
+
+Texto central esquerdo: João e Malleck
+
+Texto lado direito inferior: João
+
+Texto lado direito inferior: João
+
+Colocação da imagem: Malleck
+
+Adicional do botão: João
+
+Caixa de mensagem: João e Malleck
+
+Exibição da mensagem: João e Malleck
+
+Creditos: João e Malleck
+
+OBSERVAÇÕES: Durante o trabalho, especificamente na hora de implementar a caixa de mensagem, nos deparamos com um bug, na caixa de texto, la vai estar um comentario vazio
+com a opção excluir, se o usuario digitar outro comentario simplesmente não vai aparecer, mas se inicialmente excluimos esse comentario invisivel o que vai acontecer:
+o primeiro comentario vai ser transparente, dai o segundo vai aparecer normalmente e assim sucessivamente, assim com a opção excluir que vai estar operando normalmente
+esse foi o unico ponto que não conseguimos ajeitar pois estavamos completamentes atarefados.
