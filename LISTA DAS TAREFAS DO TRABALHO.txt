@@ -1,0 +1,28 @@
+Equipe: Malleck Ravyn Leite dos Santos - 389954
+		João Pereira de Sousa Neto - 403810
+
+Layout: https://dribbble.com/shots/14935006-Creative-Agency-Website
+
+LISTA DAS TAREFAS DO TRABALHO
+
+Cor de fundo: Malleck
+
+Cabeçalho de superior: João e Malleck
+
+Cabeçalho inferior: João e Malleck
+
+Texto central esquerdo: João e Malleck
+
+Texto lado direito inferior: João
+
+Texto lado direito inferior: João
+
+Colocação da imagem: Malleck
+
+Adicional do botão: João
+
+Caixa de mensagem: João e Malleck
+
+Exibição da mensagem: João e Malleck
+
+Creditos: João e Malleck
